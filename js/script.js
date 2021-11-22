@@ -1,14 +1,9 @@
 $(document).ready(function () {
-    // 1. gnb 를 저장한다.
     var gnb = $('.gnb');
-    // 2. 주메뉴 depth1
     var depth1 = $('.depth1');
     var depth1_a = $('.depth1 > li > a');
-    // 3. 서브메뉴 div .depth2
     var depth2 = $('.depth2');
-    // 4. sumenu
     var submenu = $('.submenu');
-    // .submenu>li
     var submenu_li = $('.submenu > li');
 
     gnb.mouseenter(function () {
